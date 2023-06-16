@@ -1,0 +1,101 @@
+:root {
+  --body-bg-color: #000000;
+  --purple: #000000;
+}
+
+html{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+/*  */
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ background-image: url(https://images2.alphacoders.com/237/237600.jpg);
+
+
+}
+
+.container .tree-container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.tree-container .avatar {
+  width: 213px;
+  height: 213px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var();
+  border-radius: 50%;
+}
+
+
+.tree-container .instagram-user {
+  margin-top: 15px;
+  color: var(--purple);
+}
+
+.tree-container .links-container {
+  margin-top: 17px;
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container .link {
+  margin-top: 16px;
+  width: 325px;
+
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: 12px 0;
+
+  transition: ease 0.3s;
+}
+
+.links-container .link:hover {
+  background: var(--purple);
+  color: var(--body-bg-color);
+
+  transition: ease 0.5s;
+}
+
+
+.socials-container .social {
+  transform: scale(0.9);
+
+  transition: ease 0.2s;
+}
+
+.socials-container .social:hover {
+  transform: scale(1);
+}
+
+a{
+
+  color: rgb(253, 253, 253);
+
+
+
+
+
+}
